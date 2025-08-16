@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Message Through Media</title>
+</head>
+<body>
+
+    <h1>My Journey & Aspirations</h1>
+    <p>This page uses various HTML media elements to share a powerful message about my path to Cloud Engineering.</p>
+
+    <h2>A Responsive Glimpse of Me</h2>
+    <p>This image below adapts based on your screen size (try resizing your browser window or viewing on mobile/tablet):</p>
+    <picture>
+        <source srcset="images/my-photo-large.jpg" media="(min-width: 1200px)">
+        <source srcset="images/my-photo-medium.jpg" media="(min-width: 768px)">
+        <source srcset="images/my-photo-small.jpg" media="(max-width: 767px)">
+        <img src="images/my-photo-fallback.jpg" alt="A photo of me expressing my message" width="600" height="400">
+    </picture>
+    <p>This demonstrates how different image versions can be served to optimize loading and display for various devices.</p>
+    <br>
+
+    <h2>My Current Profile</h2>
+    <img src="images/my-photo-default.jpg" alt="My default profile photo" width="300" height="300">
+    <p>A standard image representation.</p>
+    <br>
+
+    <h2>My Audio Message</h2>
+    <audio controls>
+        <source src="audio/mymessage.mp3" type="audio/mpeg">
+        <source src="audio/mymessage.ogv" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <p>Listen to a quick audio introduction about my motivations and excitement for the program.</p>
+    <br>
+
+    <h2>My Video Introduction</h2>
+    <video width="640" height="360" controls>
+        <source src="video/myintro.mp4" type="video/mp4">
+        <source src="video/myintro.ogv" type="video/ogg">
+        Your browser does not support the video tag.
+    </video>
+    <p>Watch a brief video explaining my commitment to becoming a Cloud Engineer and my vision for the future.</p>
+    <br>
+
+    <p>Through these media elements, I aim to convey the depth of my interest and dedication to mastering cloud technologies.</p>
+
+</body>
+</html>
